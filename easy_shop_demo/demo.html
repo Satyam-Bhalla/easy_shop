@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>EasyShop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href = "style/demo.css"></style>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+  
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation"">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/main.jpg" width="120px" height="50px" alt="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">MARKETS</a></li>
+        <li><a href="#">SUPER MARKETS</a></li>
+        <li><a href="#">SALES</a></li>
+        <li><a href="#">TRENDS</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span id="login" class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><br>
+
+<div class="women">
+<div class="jumbotron text-center">
+<br>
+<h1>Easy Shop</h1> <br><br>
+  <p>Subscribe to our Newsletters..</p> <br>
+  <form class="form-inline">
+    <input type="email" class="form-control" size="50" placeholder="Email Address" required><br><br><br>
+   <button type="btn btn-lg" id="btn">Subscribe</button><br>
+  </form><br><br><br>
+</div>
+</div>
+
+
+<div class="container" id="padding_top">
+<div class="row">
+  <div class="col-sm-1">
+    <div class="icon-bar vertical five-up">
+  <a class="item">
+    <a href="#"><img id="img" class="abcd" src="images/fb.png" width="60px" height="60px"></a>
+    
+  </a>
+  <a class="item">
+    <a href="#"><img id="img" class="abcd" src="images/tw.png" width="60px" height="60px"></a>
+    
+  </a>
+  <a class="item">
+     <a href="#"><img id="img" class="abcd" src="images/in.jpeg" width="60px" height="60px"></a>
+    
+  </a>
+  <a class="item">
+     <a href="#"><img id="img" class="abcd" src="images/yt.png" width="60px" height="60px"></a>
+    
+  </a>
+  <a class="item">
+     <a href="#"><img id="img" class="abcd" src="images/go.png" width="60px" height="60px"></a>
+    
+  </a>
+</div>
+
+  </div>  
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/a1.jpg" alt="metro">
+          <div class="carousel-caption">
+            <h3>METRO</h3>
+            
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="images/b1.jpg" alt="walmart">
+          <div class="carousel-caption">
+            <h3>BEST PRICE</h3>
+           
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="images/c1.jpg" alt="shoppperstop">
+          <div class="carousel-caption">
+            <h3>SHOPPERS STOP</h3>
+            
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="images/d1.jpg" alt="easyday">
+          <div class="carousel-caption">
+            <h3>EASYDAY</h3>
+            
+          </div>      
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <h2><b>Don't have an<br> account...?</b></h2>
+    <center><button id="btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button></center>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="container">
+
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <input type="text" placeholder="Enter Phone no." name="ph">
+        
+      <button type="submit"><h5>Sign Up</h5></button><br>
+      <div class="row">
+      <div class="col-sm-6">
+      <input type="checkbox" checked="checked"><h5>Remember me</h5>
+      </div>
+
+      </div>
+    </div>
+      
+  </form>
+</div>
+  </div>
+</div>
+<hr>
+</div>
+
+<div class="container text-center">    
+  <h3>Top Brands</h3><br><br>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="abc"><img id="u"  class="image-responsive" src="images/0.jpg"  class="img" width="80%" height="50%" alt="Image"></div>
+      
+    </div>
+    <div class="col-sm-2"> 
+      <div  class="abc"><img id="v" class="image-responsive" src="images/1.jpg"  class="img" width="80%" height="50%" alt="Image"></div>
+          
+    </div>
+    <div class="col-sm-2"> 
+      <div  class="abc"><img id="w" class="image-responsive" src="images/2.jpg"  class="img" width="80%" height="50%" alt="Image"></div>
+      
+    </div>
+    <div class="col-sm-2"> 
+      <div  class="abc"><img id="x" class="image-responsive" src="images/3.jpg"  class="img" width="80%" height="50%" alt="Image"></div>
+      
+    </div> 
+    <div class="col-sm-2"> 
+      <div  class="abc"><img id="y" class="image-responsive" src="images/4.jpg"  class="img" width="80%" height="50%" alt="Image"></div>
+      
+    </div>     
+    <div class="col-sm-2"> 
+      <div  class="abc"><img id="z" class="image-responsive" src="images/5.png"  class="img" width="80%" height="50%" alt="Image"></div>
+      
+    </div> 
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center" id="footer">
+  <div class="row">
+  <div class="col-sm-4">
+    <h4>About Us</h4>
+    <h5>Business Segments</h5>
+    <h5>Overview</h5>    
+    <h5>Media</h5>
+
+
+  </div>
+  <div class="col-sm-4">
+    <h4>Help Center</h4>
+    <h5>Contact Us</h5>
+    <h5>Feedback</h5>
+    <h5>FAQ's</h5>
+
+
+
+  </div>
+  <div class="col-sm-4">
+    <h4>Contact easyshop</h4>
+    <h5><span class="glyphicon glyphicon-phone-alt"> 1800-1234567</span></h5>
+    <h5><CENTER>(9am-5pm)</CENTER></h5>
+    </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src = "script/demo.js"></script>
+
+
+</body>
+</html>
