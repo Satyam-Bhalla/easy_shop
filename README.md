@@ -1,6 +1,0 @@
-# easy_shop
-Its is just a demo...
-
-After you see README.md...I mean this file, make any html page 
-with any content and paste it in easy_shop folder..Make sure u havre 2 files now..
-One is this file and other one is ur own file that u just added... 
