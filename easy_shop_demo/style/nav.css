@@ -1,13 +1,14 @@
 
   #btn_search_text{
     position: absolute;
-    top: 22%;
+    top: 22.5%;
     color: #869690 !important;
-    left: 57%;
+    left: 54.4%;
     height: 32px;
     width: 25%;
     border-radius: 5px;
     border: 1px solid #869690;
+    width: 30% !important;
     
 
 
@@ -18,7 +19,7 @@
     border-radius: 5px;
     border: 1px solid #869690 !important;
     top: 10px;
-    left: 12.2%;  
+    left:7.5%;  
     text-align: center;
     font-style: bold !important;
 
@@ -27,12 +28,12 @@
   }
 
   #btn_search{
-    left: 82.5%;
+    left: 85%;
     position: absolute;
     width: 20px !important;
   	background-color: white !important;
   	color: #869690 !important;
-  	top: 32%;
+  	top: 34%;
 
   }
 
@@ -132,3 +133,171 @@
 			background-color: white;
 			box-shadow: 10px 10px 19px #888888;
 		}
+		@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+#markets_div_img1 , #markets_div_img1 , #markets_div_img1 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+#markets_div_img1:hover , #markets_div_img2:hover , #markets_div_img3:hover , #markets_div_img1:focus , #markets_div_img2:focus , 
+#markets_div_img3:focus , #markets_div_img1:active , #markets_div_img2:active , #markets_div_img3:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+#super_markets_div_img1 , #super_markets_div_img2 , #super_markets_div_img3 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+#super_markets_div_img1:hover , #super_markets_div_img2:hover , #super_markets_div_img3:hover , #super_markets_div_img1:focus , 
+#super_markets_div_img2:focus , #super_markets_div_img3:focus , #super_markets_div_img1:active , #super_markets_div_img2:active , 
+#super_markets_div_img3:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+#sales_div_img1 , #sales_div_img2 , #sales_div_img3 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+#sales_div_img1:hover , #sales_div_img2:hover , #sales_div_img3:hover , #sales_div_img1:focus , #sales_div_img2:focus , 
+#sales_div_img3:focus , #sales_div_img1:active , #sales_div_img2:active , #sales_div_img3:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+#trends_div_img1 , #trends_div_img2 , #trends_div_img3 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+#trends_div_img1:hover , #trends_div_img2:hover , #trends_div_img3:hover , #trends_div_img1:focus , #trends_div_img2:focus , 
+#trends_div_img3:focus , #trends_div_img1:active , #trends_div_img2:active , #trends_div_img3:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+
+a:hover{
+	text-decoration: none !important;
+}
+
+
+
